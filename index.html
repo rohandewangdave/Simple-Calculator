@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <script src ="main.js"></script>
+    </head>
+
+    <body id = "body-tag"> 
+        <div class = "main-div">
+        <table> 
+            <tr>
+                <td colspan="4"><input class="table-component" id="input-name" value = "Rohan" readonly></td>
+                <td colspan="1"><button class="table-component" onclick="clear_input()">C</button> </td> 
+            </tr>
+           <tr> 
+              <td ><input class="table-component" id="fno-textbox" type="text" id="n1"/></td> 
+              <td ><input class="table-component" id="operator-textbox" type="text"/></td> 
+              <td ><input class="table-component" id="sno-textbox" type="text" id="n2"/></td> 
+              <td ><button class="table-component" onclick="calculate()">=</button> </td> 
+              <td ><input class="table-component" id="res-textbox" type="text" id="n2"/></td> 
+           </tr> 
+           <tr> 
+              <td><button class="table-component" onclick="set_operation('+')">+</button> </td> 
+              <td><button class="table-component" onclick="set_operation('-')">-</button> </td> 
+              <td><button class="table-component" onclick="set_operation('*')">*</button> </td> 
+              <td><button class="table-component" onclick="set_operation('/')">/</button></td> 
+              <td><button class="table-component" onclick="set_operation('%')">%</button></td> 
+           </tr> 
+           <tr> 
+              <td><button class="table-component" onclick="number_press('9')">9</button> </td> 
+              <td><button class="table-component" onclick="number_press('8')">8</button> </td> 
+              <td><button class="table-component" onclick="number_press('7')">7</button> </td> 
+              <td><button class="table-component" onclick="number_press('6')">6</button> </td> 
+              <td><button class="table-component" onclick="number_press('5')">5</button> </td> 
+           </tr> 
+           <tr> 
+            <td><button class="table-component" onclick="number_press('4')">4</button> </td> 
+            <td><button class="table-component" onclick="number_press('3')">3</button> </td> 
+            <td><button class="table-component" onclick="number_press('2')">2</button> </td> 
+            <td><button class="table-component" onclick="number_press('1')">1</button> </td> 
+            <td><button class="table-component" onclick="number_press('0')">0</button> </td>
+           </tr> 
+           <tr>
+               <td colspan="5"><button class="table-component" id="themeBtn" onclick="change_theme()">Set Theme</button></td>
+           </tr>
+        </table> 
+    </div> 
+     </body> 
+</html>
